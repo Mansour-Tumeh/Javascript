@@ -24,13 +24,33 @@ function changestyle(){
 
 }
 function changelanguage(){
-    var wilkommen='Wilkommen bei DCI';    
-        
-    document.getElementById('first').innerHTML=wilkommen;    
+     var para=document.getElementsByClassName('para');
+     para[0].style.color='orange'; 
+     para[1].style.color='darkred'; para[1].style.background='white';
 }
 function welcome(fname,lname){
     var wilkommen='Wilkommen bei DCI'; 
     document.getElementById('first').innerHTML=wilkommen +' '+fname+' '+lname;
 
   
+}
+function changestyle2(){
+ document.getElementById('myDiv').style.transition='all 3s';   
+}
+function changestyle3(){    
+ document.getElementById('myDiv').style.transform='rotate(900deg)';
+ console.log(document.getElementById('myDiv').style.transform);
+}
+function changestyle4(){
+   var newname= prompt('please enter your name','Mansour Tumeh');
+   //document.getElementById('Fullname').innerHTML='<h1>'+newname+'</h1>';
+   
+   if(newname != "") {
+        document.getElementById('h1').innerHTML=newname;
+    
+      
+   }
+
+    
+
 }

@@ -10,22 +10,21 @@
 </head>
 
 <body onload="">
-    <p id="first">Welcome to Javascript</p>
-    <button onclick="
-        document.getElementById('first').innerHTML
-        =''">
-        Clear </button>
+    <p id="first" class="para">Welcome to Javascript</p>
+    <p            class="para">the second paragraf</p>
+    <p            class="para">the third paragraf</p>
+    <button onclick="document.getElementById('first').innerHTML=''"> Clear </button>
     <button onmouseover="document.getElementById('img').style.display='block';"
         onmouseout="document.getElementById('img').style.display ='none';" on>
         Show the image</button>
 
-    <p> <img id="img" src="2.jpg" alt=""></p>
+    <p class="para"> <img id="img" src="2.jpg" alt=""></p>
 
 
     <button onclick="document.getElementById('img').style.display
            ='none';">Hide the image</button>
     <!-- <button id="showhide" onclick="showhide()"> Show / Hide</button> -->
-    <button id="j" onclick="changestyle()">change Body Color</button>
+    <button id="j" onclick="changelanguage()">change Body Color</button>
     <button onclick="welcome('Mansour','Tumeh')">Change the language</button>
 
 </body>
