@@ -42,3 +42,6 @@ border-radius: 50px;
     color:darkblue;
     font-family: cursive;
 }
+#Fullname a{
+    display: block;
+}
